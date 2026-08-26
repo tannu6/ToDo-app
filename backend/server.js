@@ -29,7 +29,7 @@ app.post("/api/tasks",(req,res)=>{
       return res.send({error:"something is wrong not able to add"})
     }
     else{
-      res.send(data)
+      res.json({id: data.insertId,title: title,status: status})
     }
 })
 })
@@ -53,7 +53,7 @@ app.patch("/api/tasks/:id",(req,res)=>{
       return res.send({error:"something is wrong.. not able to update"})
     }
     else{
-      res.send(data)
+      res.json({id:Number(id),status:status})
     }
 })
 })
