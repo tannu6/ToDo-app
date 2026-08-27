@@ -53,6 +53,6 @@ Runs on [http://localhost:3000](http://localhost:3000)
 ##Screenshots
 
 ### Todo Application
-![Todo Application](./screenshots/todo_page.png)
+![Todo Application](./screenshot/todo_page.png)
 ### Database
-![MySQL Database](./screenshots/database.png)
+![MySQL Database](./screenshot/database.png)
