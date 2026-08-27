@@ -1,3 +1,4 @@
+-- this is the sql file to create the database and table and inserted some values
 CREATE DATABASE todo;
 USE todo;
 CREATE TABLE tasks(
